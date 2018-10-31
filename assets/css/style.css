@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../images/concrete_seamless.png");
+  color: #777;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 16px;
+  line-height: 34px;
+}
+
+/* general */
+
+a {
+  color: lightseagreen;
+}
+
+a:hover {
+  color: #666;
+}
+
+
+.container {
+  clear: both;
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.fab {
+  border-radius: 50%;
+  color: lightseagreen;
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  width: 20px;
+}
+
+h1 {
+  border-bottom: 3px solid #ddd;
+  font-size: 30px;
+  line-height: 49px;
+  padding-bottom: 20px;
+}
+
+h2,
+h3 {
+  font-size: 22px;
+}
+
+h1,
+h2,
+h3 {
+  color: #4aaaa5;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 20px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* header */
+
+#logo {
+  background: #4aaaa5;
+  color: #fff;
+  float: left;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  height: 106px;
+  line-height: 106px;
+  text-align: center;
+  text-decoration: none;
+  width: 250px;
+}
+
+#masthead {
+  background: #fff;
+  border-bottom: 2px solid #ccc;
+  color: #fff;
+  margin: 0 0 30px;
+  overflow: auto;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+
+nav {
+  float: right;
+  margin-top: 25px;
+}
+
+nav a {
+  border-left: 1px solid #efefef;
+  color: #999;
+  display: inline-block;
+  line-height: 18px;
+  margin-left: 15px;
+  padding-left: 15px;
+  text-decoration: none;
+}
+
+nav a:first-child {
+  border-left: 0 none;
+}
+
+/* footer */
+
+footer {
+  background: #666;
+  border-top: 8px solid #4aaaa5;
+  clear: both;
+  color: #fff;
+  color: #ccc;
+  font-size: 12px;
+  height: 50px;
+  padding: 30px 0;
+  text-align: center;
+}
+
+h3, h2 {
+  border-bottom: 2px solid #eee;
+  line-height: 22px;
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+}
+
+/* main */
+
+#main-container {
+  min-height: calc(100vh - 70px);
+  padding-top: 130px;
+}
+
+.main-section {
+  background: #fff;
+  border: 1px solid #ddd;
+  float: left;
+  margin: 0 0 40px;
+  max-width: 960px;
+  padding: 30px;
+  width: 100%;
+}
+
+.skills {
+  border-radius: 50%;
+  color: lightseagreen;
+  font-size: 50px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  width: 20px;
+}
+
+/* portfolio page */
+
+.auth-image {
+  float: left;
+  height: auto;
+  margin-right: 25px;
+  margin-top: 10px;
+  width: 200px;
+}
+
+.work {
+  float: left;
+  margin: 20px 0 25px;
+  overflow: auto;
+  position: relative;
+  width: 274px;
+}
+
+.work h3 {
+  background: #4aaaa5;
+  border-bottom: 0;
+  bottom: 20px;
+  color: #fff;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 0;
+  padding: 15px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.work img {
+  border: 0 none;
+  opacity: 0.8;
+  width: 100%;
+}
+
+.work:nth-child(even) {
+  margin-right: 40px;
+}
+
+/* contact page */
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+input[type=submit] {
+  background: #4aaaa5;
+  border: 0 none;
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  font-size: 18px;
+  margin-left: 10px;
+  padding: 10px 30px;
+}
+
+input[type=reset] {
+  background: #4aaaa5;
+  border: 0 none;
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  font-size: 18px;
+  padding: 10px 30px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  border: 1px solid #ddd;
+  font-size: 14px;
+  height: 35px;
+  padding: 0 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+textarea {
+  height: 200px;
+}

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>About | Jamie DeHaan</title>
+    <title>Contact | Jamie DeHaan</title>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -14,7 +14,6 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -27,8 +26,8 @@
         </div>
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -59,50 +58,33 @@
 
     <div id="main-container" class="container">
         <section class="main-section">
-            <h1>About Me</h1>
+            <h1>Contact</h1>
+            <h3>Please submit the form below or send an email to: jamie.price@comcast.net</h3>
             <br>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <img src="assets/images/Jamie.jpg" class="auth-image" alt="Jamie DeHaan">
-                        <p>Ambitious Front End Web Developer with a passion to create interactive, organized and
-                            responsive applications for highly efficient user experience. I completed three avenues of
-                            education which include University of Denver (Coding Boot Camp), Udemy Academy (Web
-                            Developer Boot Camp) and Galvanize Inc (JavaScript Accelerated Course). I have obtained the
-                            necessary skills to qualify as a valuable contributor on a dream team. I look forward to
-                            sharing my enthusiasm for leading edge technology with effective communication producing
-                            positive, successful outcomes.</p>
+                        <form action="mailto:jamie.price@comcast.net" method="post" enctype="text/plain" id="contact-form">
+                            <ul>
+                                <li>
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                                </li>
+                                <li>
+                                    <label for="email">Email</label>
+                                    <input type="text" id="email" name="email" placeholder="example@gmail.com" required="required">
+                                </li>
+                                <li>
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" required="required"></textarea>
+                                </li>
+                            </ul>
+                            <input type="submit" value="Send">
+                            <input type="reset" value="Reset">
+                        </form>
                     </div>
                 </div>
             </div>
-
-            <br>
-
-            <div class="container">
-                <div class="row">
-                    <div class"col-md-12>
-                        <i class="devicon-bootstrap-plain-wordmark skills"></i>
-                        <i class="devicon-css3-plain-wordmark skills"></i>
-                        <i class="devicon-express-original-wordmark skills"></i>
-                        <i class="devicon-git-plain-wordmark skills"></i>
-                        <i class="devicon-github-plain-wordmark skills"></i>
-                        <i class="devicon-gitlab-plain-wordmark skills"></i>
-                        <i class="devicon-heroku-original-wordmark skills"></i>
-                        <i class="devicon-html5-plain-wordmark skills"></i>
-                        <i class="devicon-javascript-plain skills"></i>
-                        <i class="devicon-jquery-plain-wordmark skills"></i>
-                        <i class="devicon-mongodb-plain-wordmark skills"></i>
-                        <i class="devicon-mysql-plain-wordmark skills"></i>
-                        <i class="devicon-nodejs-plain-wordmark skills"></i>
-                        <i class="devicon-react-original-wordmark skills"></i>
-                        <i class="devicon-sequelize-plain-wordmark skills"></i>
-                        <i class="devicon-slack-plain-wordmark skills"></i>
-                        <i class="devicon-trello-plain-wordmark skills"></i>
-                        <i class="devicon-wordpress-plain-wordmark skills"></i>
-                    </div>
-                </div>
-            </div>
-
         </section>
     </div>
 
@@ -111,7 +93,7 @@
             Copyright &copy Jamie DeHaan
         </div>
     </footer>
-
+    
 </body>
 
 </html>
